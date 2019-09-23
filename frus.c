@@ -1,7 +1,7 @@
 #include<stdio.h>
 int partition(int a[],int l,int h);
 void quicksort(int a[],int l,int h);
-main()
+void main()
 {
 int i,j,n,a[1000000],s=0;
 scanf("%d",&n);
