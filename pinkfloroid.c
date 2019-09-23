@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define size 100000
-int stack[size],num[size],top=-1;
+int stack[size],num[size];
+int top=-1;
 void push(int x)
 {
     stack[++top]=x;
