@@ -3,7 +3,7 @@ int partition(int a[],int l,int h);
 void quicksort(int a[],int l,int h);
 void main()
 {
-int i,j,n,a[1000000],s=0;
+int i,j,n,a[100],s=0;
 scanf("%d",&n);
 for(i=0;i<n;i++)
 scanf("%d",&a[i]);
